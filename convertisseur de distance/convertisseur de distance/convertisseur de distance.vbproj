@@ -70,17 +70,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Convertisseur.Designer.vb">
-      <DependentUpon>Convertisseur.vb</DependentUpon>
+    <Compile Include="Convertisseur de distances.Designer.vb">
+      <DependentUpon>Convertisseur de distances.vb</DependentUpon>
     </Compile>
-    <Compile Include="Convertisseur.vb">
+    <Compile Include="Convertisseur de distances.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fenetre mot de passe.vb">
+    <Compile Include="Fenetre mot de passe [Main].vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Fenetre mot de passe.Designer.vb">
-      <DependentUpon>Fenetre mot de passe.vb</DependentUpon>
+    <Compile Include="Fenetre mot de passe [Main].Designer.vb">
+      <DependentUpon>Fenetre mot de passe [Main].vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Convertisseur de devises.Designer.vb">
+      <DependentUpon>Convertisseur de devises.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Convertisseur de devises.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_.Designer.vb">
+      <DependentUpon>Menu_.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -100,11 +112,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Convertisseur.resx">
-      <DependentUpon>Convertisseur.vb</DependentUpon>
+    <EmbeddedResource Include="Convertisseur de distances.resx">
+      <DependentUpon>Convertisseur de distances.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Fenetre mot de passe.resx">
-      <DependentUpon>Fenetre mot de passe.vb</DependentUpon>
+    <EmbeddedResource Include="Fenetre mot de passe [Main].resx">
+      <DependentUpon>Fenetre mot de passe [Main].vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Convertisseur de devises.resx">
+      <DependentUpon>Convertisseur de devises.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_.resx">
+      <DependentUpon>Menu_.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -9,3 +9,7 @@ D:\visual studio\projets\WindowsApplication1\WindowsApplication1\obj\Debug\Windo
 D:\visual studio\projets\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
 D:\visual studio\projets\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
 D:\visual studio\projets\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+D:\Repo github\Convertisseurs-en-tout-genre\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+D:\Repo github\Convertisseurs-en-tout-genre\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+D:\Repo github\Convertisseurs-en-tout-genre\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+D:\Repo github\Convertisseurs-en-tout-genre\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
