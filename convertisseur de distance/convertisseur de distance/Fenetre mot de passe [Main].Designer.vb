@@ -25,6 +25,7 @@ Partial Class Fenetre_mot_de_passe
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -38,6 +39,7 @@ Partial Class Fenetre_mot_de_passe
         '
         'Button1
         '
+        Me.Button1.AutoSize = True
         Me.Button1.Location = New System.Drawing.Point(70, 48)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
@@ -57,15 +59,25 @@ Partial Class Fenetre_mot_de_passe
         Me.Label1.Text = "Mauvais mot de passe"
         Me.Label1.Visible = False
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(1717, 1014)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(175, 19)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Mot de Passe : Linux1234"
+        '
         'Fenetre_mot_de_passe
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(222, 114)
+        Me.ClientSize = New System.Drawing.Size(207, 114)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "Fenetre_mot_de_passe"
         Me.Text = "Mot de Passe"
         Me.ResumeLayout(False)
@@ -75,5 +87,6 @@ Partial Class Fenetre_mot_de_passe
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 
 End Class
